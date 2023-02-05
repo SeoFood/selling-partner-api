@@ -40,7 +40,7 @@ class Document
      * @param ?\GuzzleHttp\Client $client  The Guzzle client to use. If not provided, a new one will be created.
      */
     public function __construct(
-        object $documentInfo,
+        $documentInfo,
         array $documentType,
         ?Client $client = null
     ) {
